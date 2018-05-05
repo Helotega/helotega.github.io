@@ -1,3 +1,26 @@
+a {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.25em;
+  font-weight: 450;
+}
+h1 {
+  text-decoration: none;
+  font-size: 3em;
+  font-family: 'Arsenal', sans-serif;
+  color: #FFFFFF;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Arsenal', sans-serif;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+
+/*--------FONTES------*/
+
+
 /*
 --------------------COMEÇO DO MENU ---------------------
 */
@@ -17,6 +40,10 @@ body,
     visibility: hidden;
     overflow: hidden;
 }
+.menu-container {
+  padding-left: 35%;
+  background-color: #000000;
+}
 .menu,
 .sub-menu {
     list-style: none;
@@ -31,7 +58,7 @@ body,
     padding: 10px;
     color: #fff;
     font-family: 'Arsenal', sans-serif;
-    font-size: 14px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -50,7 +77,7 @@ body,
 .sub-menu {
     display: none;
     position: absolute;
-    min-width: 150px;
+    min-width: 250px;
 }
 .sub-menu li:hover {
     background: #555;
@@ -62,3 +89,126 @@ body,
 /*
 ------------------------FIM DO MENU---------------------
 */
+.menusinhos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex;
+  align-items: center;
+  align-content: flex-end;
+  background-color: #606060;
+  padding-top: 10px;
+}
+.menusinhos > h1 {
+  font-size: 3.5em;
+  color: #ffffff;
+  font-family: 'Arsenal', sans-serif;
+  padding: 0;
+  margin-left: 0;
+  border-top: 5px solid #FFFFFF;
+  padding: 110px 0px;
+}
+.menusinhos > a {
+  padding: 0;
+  margin: 0;
+}
+.menusinhos a:hover > h1 {
+  display: block;
+}
+.itensRedondos {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  transition: border-radius 0.5s ease-in-out;
+}
+.itensRedondos:hover {
+  border-radius: 250px;
+
+}
+/*-------------------------ARTIGOS---------------------*/
+.sobreEU {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: #3F7299;
+  padding: 25px
+}
+.sobreEU > h1 {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid red;
+}
+.sobreEU > h2 {
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+.sobreAlgo {
+  display: flex;
+  flex-direction: column;
+  background-color: #3F7299;
+  padding: 25px
+}
+.sobreAlgo > h1 {
+  background-color: #FFE7E8;
+  border-left: 20px solid #E66465;
+  color: #646464;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+.sobreAlgo > h2 {
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+/*ANIMATIONS WITH CSS  >>The animation code<<*/
+
+.noTalo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #322838;
+}
+.noTalo > h2 {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1em;
+  padding: 2px;
+  color: #C0C0C0;
+}
+/*
+.noFundo > a#github:hover {
+  background-image: url("imagens/Icone-github-hover.png");
+}
+*/
+.linksFundo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  padding: 5px 20% 5px 20%;
+}
+.linksFundo > h2 {
+  padding: 2px;
+  margin: 0;
+  color: #C0C0C0;
+}
+.linksFundo > a {
+  padding: 5px;
+  border-radius: 2px;
+  color: #696969;
+  transition: background-color 2s;
+  transition: font-weight 0.8s;
+  transition: color 0.8s;
+}
+.linksFundo > a:hover {
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #322838;
+}
