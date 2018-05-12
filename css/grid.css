@@ -1,0 +1,16 @@
+
+
+.estruturaTopicos {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0 20% 0 20%;
+}
+
+.estruturaTopicos > div {
+  background:#eee;
+  padding:1em;
+  text-align: center;
+}
+.estruturaTopicos > div:nth-child(odd){
+  background:#ddd;
+}
