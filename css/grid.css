@@ -1,5 +1,7 @@
 
-
+/*
+  código que faz uma lista com grid
+*/
 .estruturaTopicos {
   display: grid;
   grid-template-columns: 30% 70%;
