@@ -10,9 +10,9 @@ body{
 #main {
   display: grid;
   grid-template-rows: 15vh 15vh 55vh 20vh;
-  grid-template-areas: "header header" "nav nav" " content aside" "footer footer";
+  grid-template-areas: "header " "nav" " content " "footer ";
 }
-.barTop {grid-area: header; background-color: red;}
+.barTop {background-color: #28242B; grid-area: header; }
 .mainNav {
   grid-area: nav;
   background-color: #FBEFEF;}
