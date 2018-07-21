@@ -1,73 +1,67 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*
+========================
+  Font and color variables
+========================
+*/
+
 * {
-  padding: 0; margin: 0;
+  box-sizing: border-box;
 }
 body{
-  padding-left: 20%;
-  padding-right: 20%;
-  background-color: #28242B;
-
-}
-#main {
-  display: grid;
-  grid-template-rows: 15vh 15vh 55vh 20vh;
-  grid-template-areas: "header " "nav" " content " "footer ";
-}
-.barTop {background-color: #28242B; grid-area: header; }
-.mainNav {
-  grid-area: nav;
-  background-color: #FBEFEF;}
-.mainContent{
-  grid-area: content;
-  background: #0431B4;}
-.mainAside{
-  grid-area: aside;
-  background-color: #0431B4;}
-.mainFooter{grid-area: footer; background-color: orange;}
-@media screen and (max-width: 768px){
-  body { background: #cdcdcd;}
-  #main {grid-template-areas: "header" "content" "aside" "footer"}
-  .mainNav{grid-area: header;}
-}
-.barTop {
-  position: relative;
-  z-index: 1;
+  background-color: #353535;
+  color: #c4c4c4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.45;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: baseline;
-  width: 100%;
-  height: 110px;
-  background-color: #FBEFEF;
+  flex-wrap: wrap;
 }
-.barTop > a {
+.sidebar {
+  background: ;
+  flex:1 1 20%;
+  min-width: 300px;
+  padding: 3em;
+}
+.logo {
+  text-transform: uppercase;
+  margin-bottom: 3em;
+
+  @media(min-width: 1500px){
+    margin-bottom: 5em;
+  }
+  span{
+    font-weight: bold;
+  }
+}
+.nav-item {
+  color: #737373;
   text-decoration: none;
-  text-align: center;
-  font-family: 'Gudea', sans-serif;
-  font-size: 12pt;
-  font-weight: bolder;
-  margin: auto;
-  padding: 2px 2px 2px 2px;
-  color: #5F4C0B;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-right: 2em;
+
+  @media (min-width: : 1500px;){
+    display: block;
+    margin: 7vh 0;
+  }
+  &.active {
+      color: #c4c4c4;
+  }
+  &:hover {
+    color: #c4c4c4;
+  }
+}
+.main-content {
+  padding: 10%;
+  flex: 1 1 80%;
+  min-height: 100vh;
+
 }
 
-.barTop > h1 {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Gudea', sans-serif;
-  font-size: 16pt;
-  font-weight: bolder;
-  margin: auto;
-  padding: 20px 30px 20px 30px;
-  color: #FFFFFF;
-  padding-right: 40%;
-  font-size: 2.25em;
-  min-width: 200px;
-}
-a#HERE {
-  color: #5F4C0B;
-  border: 2px #000000;
-  }
-.barTop > a:hover {
-  color: #FF8000;
+.portifolio-item {
+  background: ;
+  color: ;
+  font-weight: ;
 }
