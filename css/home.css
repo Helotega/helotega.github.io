@@ -54,17 +54,17 @@ body{
   }
 }
 .main-content {
-  padding: 10%;
+  padding: 5%;
   flex: 1 1 80%;
-  min-height: 100vh;
+  min-height: 200vh;
 
 }
 .portifolio {
   display: grid;
   height: 100%;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 5px;
 }
 .portifolio-item {
   background: #f96855;
@@ -76,11 +76,11 @@ body{
 }
 .small {
   background-color: red;
-  grid-row: span 1;
+  grid-row: span 3;
   grid-column: span 1;
 }
 .medium {
-    grid-row: span 2;
+    grid-row: span 3;
     grid-column: span 2;
 }
 .large{
@@ -88,10 +88,67 @@ body{
   grid-column: span 3;
 }
 .tall{
-  grid-row: span 3;
+  grid-row: span 7;
   grid-column: span 2;
 }
 .wide{
-  grid-row: span 2;
+  grid-row: span 4;
   grid-column: span 3;
+}
+.one{
+  background-image: url("../imagens/jafoimeubebe.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.one:hover{
+  background-position: center;
+}
+.two{
+  background-image: url("../imagens/meubebe.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.two:hover{
+  background-position: center;
+}
+.three{
+  background-image: url("../imagens/meubaby.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 1s;
+}
+.three:hover{
+  background-position: center;
+  background-blend-mode: normal;
+}
+.five{
+  background-image: url("../imagens/mylove.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: all 300ms;
+}
+.five:hover{
+  background-blend-mode: normal;
+}
+.six{
+  background-image: url("../imagens/meubabydois.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.six:hover{
+  background-position: center;
+  background-blend-mode: normal;
 }
