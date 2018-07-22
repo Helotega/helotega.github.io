@@ -73,29 +73,25 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  .medium {
+}
+.small {
+  background-color: red;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.medium {
     grid-row: span 2;
     grid-column: span 2;
-  }
-  .small {
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-  .medium {
-      grid-row: span 2;
-      grid-column: span 2;
-  }
-  &.large{
-    grid-row: span 3;
-    grid-column: span 3;
-  }
-  &.tall{
-    grid-row: span 3;
-    grid-column: span 2;
-  }
-  &.wide{
-    grid-row: span 2;
-    grid-column: span 3;
-  }
-
+}
+.large{
+  grid-row: span 3;
+  grid-column: span 3;
+}
+.tall{
+  grid-row: span 3;
+  grid-column: span 2;
+}
+.wide{
+  grid-row: span 2;
+  grid-column: span 3;
 }
