@@ -59,9 +59,35 @@ body{
   min-height: 100vh;
 
 }
-
+.portifolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
 .portifolio-item {
-  background: ;
-  color: ;
-  font-weight: ;
+  background: #f96855;
+  color: #353535;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .medium {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  .small {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .medium {
+      grid-row: span 2;
+      grid-column: span 2;
+  }
+  &.large{
+    grid-row: span 3;
+    grid-column: span 2;
+  }
+
 }
