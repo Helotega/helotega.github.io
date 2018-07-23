@@ -8,6 +8,11 @@
 
 * {
   box-sizing: border-box;
+  font-weight: 200;
+  color: #737373;
+}
+h1{
+  color: #c4c4c4;
 }
 body{
   background-color: #353535;
@@ -22,7 +27,9 @@ body{
   background: ;
   flex:1 1 20%;
   min-width: 300px;
+  width: 100%;
   padding: 3em;
+
 }
 .logo {
   text-transform: uppercase;
@@ -31,9 +38,10 @@ body{
   @media(min-width: 1500px){
     margin-bottom: 5em;
   }
-  span{
-    font-weight: bold;
-  }
+}
+span{
+  color: #c4c4c4;
+  font-weight: bold;
 }
 .nav-item {
   color: #737373;
@@ -75,8 +83,6 @@ body{
   align-items: center;
 }
 .small {
-  background-color: blue;
-  opacity: 20%;
   grid-row: span 3;
   grid-column: span 1;
 }
@@ -142,7 +148,7 @@ body{
 }
 .four{
   background-image: url("../imagens/jafoimeubaby.jpg");
-  background-blend-mode:lighten;
+  background-blend-mode: normal;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -162,8 +168,22 @@ body{
   background-position: top;
   background-blend-mode: normal;
 }
+.smalle{
+  background-image: url("../imagens/jafoimeubebe.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.smalle:hover{
+  background-position: top;
+  background-blend-mode: normal;
+}
 .mensagem-pagina-bebe{
   display: block;
+  width: 100%;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   font-size: 1em;

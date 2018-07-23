@@ -1,0 +1,145 @@
+
+.main-content {
+  padding: 5%;
+  flex: 1 1 80%;
+  min-height: 150vh;
+
+}
+.portifoliu {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 8px;
+}
+.portifoliu-item {
+  background: #f96855;
+  color: #c4c4c4;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.small {
+  grid-row: span 2;
+  grid-column: span 2;
+  transition: all 300ms;
+}
+.small:hover{
+  background-position: bottom;
+}
+.medium {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.large{
+  grid-row: span 2;
+  grid-column: span 5;
+}
+.tall{
+  grid-row: span 4;
+  grid-column: span 2;
+}
+.wide{
+  grid-row: span 4;
+  grid-column: span 3;
+}
+.one{
+  background-image: url("../imagens/fotoshome/20180714_203408.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.one:hover{
+  background-position: center;
+}
+.two{
+  background-image: url("../imagens/fotoshome/20180714_203259.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center left;
+  position: relative;
+  transition: all 300ms;
+}
+.two:hover{
+  background-position: center;
+}
+.three{
+  background-image: url("../imagens/fotoshome/20180714_203259.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+  transition: all 2s;
+}
+.three:hover{
+  background-position: top;
+}
+.four{
+  background-image: url("../imagens/fotoshome/20180714_203303.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: all 300ms;
+}
+.four:hover{
+}
+.five{
+  background-image: url("../imagens/fotoshome/20180714_203015.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-blend-mode 3s;
+}
+.five:hover{
+  background-blend-mode: normal;
+}
+.six{
+  background-image: url("../imagens/fotoshome/20180714_203054.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.six:hover{
+  background-position: top;
+  background-blend-mode: normal;
+}
+.seven{
+  background-image: url("../imagens/fotoshome/20180714_203311.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.eight{
+  background-image: url("../imagens/fotoshome/20180714_203259.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.nine{
+  background-image: url("../imagens/fotoshome/20180714_203254.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.ten{
+  background-image: url("../imagens/fotoshome/20180714_203251.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
