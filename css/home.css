@@ -56,7 +56,7 @@ body{
 .main-content {
   padding: 5%;
   flex: 1 1 80%;
-  min-height: 200vh;
+  min-height: 100vh;
 
 }
 .portifolio {
@@ -96,7 +96,7 @@ body{
   grid-column: span 3;
 }
 .one{
-  background-image: url("../imagens/jafoimeubebe.jpg");
+  background-image: url("../imagens/meubabydois.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: top left;
@@ -121,7 +121,7 @@ body{
   background-image: url("../imagens/meubaby.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: top left;
+  background-position: bottom left;
   position: relative;
   transition: all 1s;
 }
@@ -141,14 +141,14 @@ body{
   background-blend-mode: normal;
 }
 .six{
-  background-image: url("../imagens/meubabydois.jpg");
+  background-image: url("../imagens/jafoimeubebe.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: top left;
+  background-position: bottom left;
   position: relative;
-  transition: all 300ms;
+  transition: all ease-in-out 0.5s;
 }
 .six:hover{
-  background-position: center;
+  background-position: top;
   background-blend-mode: normal;
 }
