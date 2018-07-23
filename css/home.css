@@ -64,7 +64,7 @@ body{
   height: 100%;
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5px;
+  grid-gap: 8px;
 }
 .portifolio-item {
   background: #f96855;
@@ -151,4 +151,10 @@ body{
 .six:hover{
   background-position: top;
   background-blend-mode: normal;
+}
+.mensagem-pagina-bebe{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1em;
 }
