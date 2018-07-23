@@ -65,7 +65,7 @@
   transition: all 300ms;
 }
 .two:hover{
-  background-position: center;
+  background-position: top;
 }
 .three{
   background-image: url("../imagens/fotoshome/20180714_203259.jpg");
@@ -76,7 +76,7 @@
   transition: all 2s;
 }
 .three:hover{
-  background-position: top;
+  background-position: center;
 }
 .four{
   background-image: url("../imagens/fotoshome/20180714_203303.jpg");
