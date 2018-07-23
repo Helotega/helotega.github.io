@@ -75,7 +75,8 @@ body{
   align-items: center;
 }
 .small {
-  background-color: red;
+  background-color: blue;
+  opacity: 20%;
   grid-row: span 3;
   grid-column: span 1;
 }
@@ -127,7 +128,6 @@ body{
 }
 .three:hover{
   background-position: center;
-  background-blend-mode: normal;
 }
 .five{
   background-image: url("../imagens/mylove.jpg");
@@ -135,16 +135,26 @@ body{
   background-size: cover;
   background-position: center;
   position: relative;
-  transition: all 300ms;
+  transition: background-blend-mode 3s;
 }
 .five:hover{
   background-blend-mode: normal;
+}
+.four{
+  background-image: url("../imagens/jafoimeubaby.jpg");
+  background-blend-mode:lighten;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: all 300ms;
+}
+.four:hover{
 }
 .six{
   background-image: url("../imagens/jafoimeubebe.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: bottom left;
+  background-position: center left;
   position: relative;
   transition: all ease-in-out 0.5s;
 }
