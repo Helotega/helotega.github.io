@@ -30,7 +30,7 @@
   background-position: bottom;
 }
 .medium {
-    grid-row: span 3;
+    grid-row: span 2;
     grid-column: span 3;
 }
 .large{
@@ -59,7 +59,7 @@
   transition: all 300ms;
 }
 .one:hover{
-  background-position: center;
+  background-position: right;
 }
 .two{
   background-image: url("../imagens/fotoshome/20180714_203259.jpg");
@@ -108,7 +108,7 @@
   background-image: url("../imagens/fotoshome/20180714_203054.jpg");
   background-blend-mode: normal;
   background-size: cover;
-  background-position: center left;
+  background-position: left;
   position: relative;
   transition: all ease-in-out 0.5s;
 }
@@ -116,10 +116,11 @@
   background-position: top;
 }
 .seven{
+  grid-column: span 3;
   background-image: url("../imagens/fotoshome/20180714_203311.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: top left;
+  background-position: left;
   position: relative;
   transition: all ease-in-out 0.5s;
 }
@@ -146,4 +147,9 @@
   background-position: top left;
   position: relative;
   transition: all ease-in-out 0.5s;
+}
+.eleven{
+  animation-name: passabebe;
+  animation-duration: 3s;
+  position: relative;
 }

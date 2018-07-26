@@ -181,7 +181,8 @@ span{
   background-blend-mode: normal;
 }
 .mensagem-pagina-bebe{
-  display: block;
+  grid-row: span 1;
+  grid-column: span 8;
   width: 100%;
   text-align: center;
   margin-right: auto;
