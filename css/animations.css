@@ -1,6 +1,10 @@
 @keyframes passabebe {
   0%{background-image: url("../imagens/fotoshome/20180714_195235.jpg");}
-  50%{background-image: url("../imagens/fotoshome/20180714_195240.jpg");}
+  25%{background-image: url("../imagens/fotoshome/20180714_195240.jpg");}
   50%{background-image: url("../imagens/fotoshome/20180714_195243.jpg");}
   100%{background-image: url("../imagens/fotoshome/20180714_195245.jpg");}
+}
+@keyframes passabebi {
+  from{background-color: red;}
+  to{background-color: blue;}
 }

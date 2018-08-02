@@ -149,7 +149,11 @@
   transition: all ease-in-out 0.5s;
 }
 .eleven{
-  animation-name: passabebe;
-  animation-duration: 3s;
+  background-position: top left;
   position: relative;
+  animation-name: passabebi;
+  animation-duration: 3s;
+}
+.mensagem-pagina-bebe{
+  grid-column: span 8;
 }
