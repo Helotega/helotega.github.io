@@ -130,7 +130,6 @@
   background-size: cover;
   background-position: top left;
   position: relative;
-  transition: all ease-in-out 0.5s;
 }
 .nine{
   background-image: url("../imagens/fotoshome/20180714_203254.jpg");
@@ -138,7 +137,6 @@
   background-size: cover;
   background-position: top left;
   position: relative;
-  transition: all ease-in-out 0.5s;
 }
 .ten{
   background-image: url("../imagens/fotoshome/20180714_203251.jpg");
@@ -146,13 +144,15 @@
   background-size: cover;
   background-position: top left;
   position: relative;
-  transition: all ease-in-out 0.5s;
 }
 .eleven{
+  background-image: url("../imagens/fotoshome/20180714_195245.jpg");
+  background-size: cover;
   background-position: top left;
   position: relative;
-  animation-name: passabebi;
-  animation-duration: 3s;
+  animation-name: passabebe;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 .mensagem-pagina-bebe{
   grid-column: span 8;
