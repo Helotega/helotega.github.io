@@ -7,6 +7,15 @@
     <link href="https://fondsts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <meta charset="utf-8">
     <title>PORTIFOLIO</title>
+    <script>
+  var myVideo = document.getElementById("video1");
+
+  function playPause() {
+      if (myVideo.paused)
+          myVideo.play();
+      else
+          myVideo.pause();
+  } </script>
   </head>
 <body>
 <div class="sidebar">
@@ -21,7 +30,12 @@
 
 <div class="main-content">
   <div class="portifolio">
-    <div class="portifolio-item wide">one</div>
+    <div class="portifolio-item wide">
+      <button type="button" name="button">PLAY</button>
+      <video id="video1" onclick="playPause()" poster="posterimage.jpg" width="auto">
+        <source src="../ideos/Meugato.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="portifolio-item small">two</div>
     <div class="portifolio-item small">three</div>
     <div class="portifolio-item small">four</div>
