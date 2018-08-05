@@ -8,14 +8,13 @@
     <meta charset="utf-8">
     <title>PORTIFOLIO</title>
     <script>
-  var myVideo = document.getElementById("video1");
-
-  function playPause() {
-      if (myVideo.paused)
-          myVideo.play();
-      else
-          myVideo.pause();
-  } </script>
+      var myVideo = document.getElementById("video1");
+      function playPause() {
+          if (myVideo.paused)
+              myVideo.play();
+          else
+              myVideo.pause();
+      }</script>
   </head>
 <body>
 <div class="sidebar">
@@ -31,8 +30,7 @@
 <div class="main-content">
   <div class="portifolio">
     <div class="portifolio-item wide">
-      <button type="button" name="button">PLAY</button>
-      <video id="video1" onclick="playPause()" poster="posterimage.jpg" width="auto">
+      <video muted autoplay class="bg_videos" onclick="playPause" id="video1">
         <source src="../ideos/Meugato.mp4" type="video/mp4">
       </video>
     </div>

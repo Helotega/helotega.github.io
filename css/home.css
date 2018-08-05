@@ -72,11 +72,10 @@ span{
   height: 100%;
   grid-template-rows: repeat(11, 1fr);
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 8px;
+  grid-gap: 16px;
 }
 .portifolio-item {
   background: #f96855;
-  opacity: 0.75;
   color: #c4c4c4;
   font-weight: 700;
   display: flex;
@@ -125,4 +124,14 @@ span{
   height: auto;
   z-index: -1000;
   background-size: cover;
+}
+a > img {
+  width: 96px;
+  height: 96px;
+  margin: 4px;
+}
+address{
+    background: blue;
+    opacity: 0.5;
+    padding: 50px;
 }
