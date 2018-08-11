@@ -68,16 +68,13 @@ span{
   align-items: center;
 }
 .small {
-  grid-row: span 1  ;
+  background: none;
+  grid-row: span 2  ;
   grid-column: span 1;
 }
-.medium {
-    grid-row: span 3;
-    grid-column: span 2;
-}
 .large{
-  grid-row: span 3;
-  grid-column: span 3;
+  grid-row: span 1;
+  grid-column: span 4;
 }
 .tall{
   grid-row: span 7;
@@ -105,4 +102,92 @@ span{
   width: auto;
   height: auto;
   background-size: cover;
+}
+.one{
+  background-image: url("../imagens/Desenhos/GatinhaQuero.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.one:hover{
+  background-position: center;
+}
+.two{
+  background-image: url("../imagens/Desenhos/Bonequinha.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.two:hover{
+  background-position: center;
+}
+.three{
+  background-image: url("../imagens/Desenhos/meuBebe.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.three:hover{
+  background-position: center;
+}
+.four{
+  background-image: url("../imagens/Desenhos/meuCoracao.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.four:hover{
+  background-position: bottom;
+}
+.five{
+  background-image: url("../imagens/Desenhos/senhoraFlores.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.five:hover{
+  background-position: center;
+}
+.six{
+  background-image: url("../imagens/Desenhos/mulher02.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.six:hover{
+  background-position: center;
+}
+.seven{
+  background-image: url("../imagens/Desenhos/juliaEliza.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.seven:hover{
+  background-position: center;
+}
+.eight{
+  background-image: url("../imagens/Desenhos/Menina.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.eight:hover{
+  background-position: center;
 }

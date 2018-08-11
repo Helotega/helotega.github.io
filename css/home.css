@@ -28,7 +28,7 @@ body{
   flex:1 1 20%;
   min-width: 300px;
   width: 100%;
-  padding: 3em;
+  padding: 3em 2em;
 
 }
 .logo {
@@ -104,6 +104,10 @@ span{
 .wide{
   grid-row: span 4;
   grid-column: span 3;
+}
+.foto {
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
 .mensagem-pagina-bebe{
   grid-row: span 1;

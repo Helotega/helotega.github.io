@@ -1,0 +1,76 @@
+.portifolio {
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 8px;
+}
+.portifolio-item {
+  max-height: 900px;
+}
+.mensagem{
+  background: none;
+  grid-row: span 1;
+  grid-column: span 5;
+}
+
+.one{
+  background-image: url("../imagens/meubabydois.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+  transition: all 300ms;
+}
+.one:hover{
+  background-position: top;
+}
+.two{
+  background-image: url("../imagens/meubebe.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  transition: all 300ms;
+}
+.two:hover{
+  background-position: center;
+}
+.three{
+  background-image: url("../imagens/meubebe.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+}
+.three:hover{
+}
+.five{
+  background-image: url("../imagens/mylove.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.five:hover{
+}
+.four{
+  background-image: url("../imagens/jafoimeubaby.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center right;
+  position: relative;
+  transition: all 300ms;
+}
+.four:hover{
+}
+.six{
+  background-image: url("../imagens/jafoimeubebe.jpg");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.six:hover{
+  background-position: top;
+  background-blend-mode: normal;
+}
